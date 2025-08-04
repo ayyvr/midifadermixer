@@ -1,6 +1,6 @@
 # Midi Fader Mixer
 
-Midi Fader Mixer is a simple MIDI-controlled audio volume mixer for PipeWire streams. It supports mapping MIDI CC faders to named audio streams and allows volume control via a GTK GUI and system tray icon.
+A simple MIDI-controlled audio volume mixer for PipeWire streams. It supports mapping MIDI CC faders to named audio streams and allows volume control via a GTK GUI and system tray icon.
 
 ## Features
 
