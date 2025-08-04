@@ -1,2 +1,2 @@
 # midifadermixer
-imple MIDI-controlled audio volume mixer for PipeWire streams.
+Simple MIDI-controlled audio volume mixer for PipeWire streams.
