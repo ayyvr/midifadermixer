@@ -3,33 +3,22 @@ Midi Fader Mixer
 Midi Fader Mixer is a simple MIDI-controlled audio volume mixer for PipeWire streams. It supports mapping MIDI CC faders to named audio streams and allows volume control via a GTK GUI and system tray icon compatible with Wayland (wlroots/Waybar).
 Features
 
-    Map up to 18 MIDI CC channels to audio stream names
-
-    Customizable MIDI device name (default: BCF2000 MIDI 1)
-
-    GTK3-based GUI with sliders and text entry for stream names
-
-    System tray indicator using Ayatana AppIndicator for Wayland support
-
-    Saves and loads configuration from ~/.config/midifadermixer/config.ini
+  - Map up to 18 MIDI CC channels to audio stream names
+  - Customizable MIDI device name (default: BCF2000 MIDI 1)
+  - GTK3-based GUI with sliders and text entry for stream names
+  - System tray indicator using Ayatana AppIndicator for Wayland support
+  - Saves and loads configuration from ~/.config/midifadermixer/config.ini
 
 Requirements
-
     Python 3
-
     Python packages:
-
-        mido
-
-        python-gi (PyGObject)
-
-        Pillow
-
-    PipeWire and wpctl command line utility
-
-    MIDI device connected and recognized by the system
-
-    GTK3 and Ayatana AppIndicator3 libraries installed on your system
+        - mido
+        - python-gi (PyGObject)
+        - Pillow
+    
+   PipeWire and wpctl command line utility
+   MIDI device connected and recognized by the system
+   GTK3 and Ayatana AppIndicator3 libraries installed on your system
 
 Installation (Fedora example)
 
